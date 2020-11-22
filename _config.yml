@@ -3,20 +3,19 @@ email: spam@openbeaker.org
 description: >- 
   Portal. Open Portal. Better Portal.
 baseurl: ""
-url: "http://openbeaker.org" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://openbeaker.org"
 github_username:  openbeaker
 
-# Build settings
+# Needed for github pages / preview
+remote_theme: "pmarsceill/just-the-docs"
 theme: "just-the-docs"
+
 plugins:
   - jekyll-feed
 
-  # Aux links for the upper right navigation
 aux_links:
   "OpenBeaker on GitHub":
     - "//github.com/openbeaker"
-
-# Makes Aux links open in a new tab. Default is false
 aux_links_new_tab: true
 
 exclude:
