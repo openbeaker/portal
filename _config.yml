@@ -2,7 +2,7 @@ title: OpenBeaker Portal
 email: spam@openbeaker.org
 description: >- 
   Portal. Open Portal. Better Portal.
-baseurl: ""
+baseurl: "/portal/"
 url: "http://openbeaker.org"
 github_username:  openbeaker
 
